@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/north-pole/docs/diagrams/distribution-comet'
+OUT = 'docs/diagrams/distribution-comet'
 def build():
     d = Diagram(1500, 810)
     d.node('cl2', 420, 50, 220, 50, 'RDLPH-CL-2', ['core leaf · Catalyst'], 'external')

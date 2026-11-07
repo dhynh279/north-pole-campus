@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/north-pole/docs/diagrams/campus'
+OUT = 'docs/diagrams/campus'
 def build():
     d = Diagram(1500, 1010)
     d.node('up', 750, 50, 260, 50, 'Campus uplink', ['VLAN 3900 · DHCP'], 'external')

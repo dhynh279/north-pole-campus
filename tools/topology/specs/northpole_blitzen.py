@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/north-pole/docs/diagrams/access-blitzen'
+OUT = 'docs/diagrams/access-blitzen'
 def build():
     d = Diagram(1300, 790)
     d.node('d5', 400, 55, 260, 56, 'DSW-5', ['HSRP active · VLAN 10 VIP .129'], 'external')

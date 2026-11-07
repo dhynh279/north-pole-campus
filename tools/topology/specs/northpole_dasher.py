@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/north-pole/docs/diagrams/access-dasher'
+OUT = 'docs/diagrams/access-dasher'
 def build():
     d = Diagram(1100, 750)
     d.node('d7', 300, 55, 240, 56, 'DSW-7', ['HSRP active VLAN 90, 100'], 'external')
